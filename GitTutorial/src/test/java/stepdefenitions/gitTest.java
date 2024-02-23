@@ -8,8 +8,9 @@ public class gitTest {
 		System.out.println("Message test remote commit one");
 
 	}
+
 	@Given("^local commit one$")
 	public void local_commit_one() {
-
+		System.out.println("Local commit code");
 	}
 }
