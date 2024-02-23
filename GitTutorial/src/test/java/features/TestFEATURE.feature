@@ -23,3 +23,6 @@ Then verify fetch four
 Scenario: To Test the GIT fetch functionality five
 Given navigate to URL
 Then verify fetch five
+Scenario: To Test the GIT fetch functionality six
+Given navigate to URL
+Then verify fetch six
