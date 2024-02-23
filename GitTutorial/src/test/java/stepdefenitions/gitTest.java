@@ -23,10 +23,17 @@ public class gitTest {
 	public void verify_remote_PC_commit_two() throws Throwable {
 		System.out.println("In commit from PC step two");
 	}
+
 	@Then("^verify remote PC commit four$")
 	public void verify_remote_PC_commit_four() throws Throwable {
 		System.out.println("In commit from PC step four");
 	}
+
+	@Then("^verify remote PC commit five$")
+	public void verify_remote_PC_commit_five() throws Throwable {
+		System.out.println("In commit from PC step five");
+	}
+
 	@Then("^verify fetch$")
 	public void verify_fetch() throws Throwable {
 		System.out.println("In Then fetch test");
@@ -57,11 +64,13 @@ public class gitTest {
 		System.out.println("In Then fetch test six");
 
 	}
+
 	@Then("^verify fetch seven$")
 	public void verify_fetch_seven() throws Throwable {
 		System.out.println("In Then fetch test six");
 
 	}
+
 	@Then("^verify remote PC commit three$")
 	public void verify_remote_PC_commit_three() throws Throwable {
 		System.out.println("In commit from PC step three");
