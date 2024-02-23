@@ -38,4 +38,8 @@ public class gitTest {
 	public void verify_fetch_four() throws Throwable {
 		System.out.println("In Then fetch test four");
 	}
+	@Then("^verify fetch five$")
+	public void verify_fetch_five() throws Throwable {
+		System.out.println("In Then fetch test five");
+	}
 }
