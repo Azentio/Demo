@@ -19,7 +19,11 @@ Given navigate to URL
 Then verify remote PC commit five
 Scenario: To Test the GIT Push from remote PC commit five
 Given navigate to URL
+<<<<<<< Upstream, based on origin/GitTutorial
 Then verify remote PC commit four
+=======
+Then verify remote PC commit four
+>>>>>>> c933d69 Commit from remote PC
 Scenario: To Test the GIT fetch functionality
 Given navigate to URL
 Then verify fetch
