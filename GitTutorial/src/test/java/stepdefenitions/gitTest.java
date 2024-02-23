@@ -8,6 +8,11 @@ public class gitTest {
 		System.out.println("Message test remote commit one");
 
 	}
+	@Given("^remote commit two$")
+	public void remote_commit_two() {
+
+
+	}
 
 	@Given("^local commit one$")
 	public void local_commit_one() {
