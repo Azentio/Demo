@@ -17,3 +17,9 @@ Then verify fetch two
 Scenario: To Test the GIT fetch functionality three
 Given navigate to URL
 Then verify fetch two
+Scenario: To Test the GIT fetch functionality three
+Given navigate to URL
+Then verify fetch three
+Scenario: To Test the GIT fetch functionality four
+Given navigate to URL
+Then verify fetch three
