@@ -8,3 +8,6 @@ Then verify remote PC commit
 Scenario: To Test the GIT fetch functionality
 Given navigate to URL
 Then verify fetch
+Scenario: To Test the GIT fetch functionality two
+Given navigate to URL
+Then verify fetch two

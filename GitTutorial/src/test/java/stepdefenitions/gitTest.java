@@ -22,4 +22,8 @@ public class gitTest {
 	public void verify_fetch() throws Throwable {
 		System.out.println("In Then fetch test");
 	}
+	@Then("^verify fetch two$")
+	public void verify_fetch_two() throws Throwable {
+		System.out.println("In Then fetch test");
+	}
 }
