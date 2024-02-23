@@ -18,4 +18,7 @@ public class gitTest {
 	public void local_commit_one() {
 		System.out.println("Local commit code");
 	}
+	@Given("^local commit two$")
+	public void local_commit_two() {
+	}
 }
