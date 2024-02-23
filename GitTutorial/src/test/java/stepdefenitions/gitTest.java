@@ -13,4 +13,9 @@ public class gitTest {
 	public void verify() throws Throwable {
 		System.out.println("In Then step");
 	}
+
+	@Then("^verify remote PC commit$")
+	public void verify_remote_PC_commit() throws Throwable {
+		System.out.println("In commit from PC step");
+	}
 }
