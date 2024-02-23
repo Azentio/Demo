@@ -14,6 +14,9 @@ Then verify remote PC commit three
 Scenario: To Test the GIT Push from remote PC
 Given navigate to URL
 Then verify remote PC commit four
+Scenario: To Test the GIT Push from remote PC
+Given navigate to URL
+Then verify remote PC commit four
 Scenario: To Test the GIT fetch functionality
 Given navigate to URL
 Then verify fetch
@@ -32,3 +35,6 @@ Then verify fetch five
 Scenario: To Test the GIT fetch functionality six
 Given navigate to URL
 Then verify fetch six
+Scenario: To Test the GIT fetch functionality six
+Given navigate to URL
+Then verify fetch seven
