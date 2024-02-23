@@ -18,4 +18,8 @@ public class gitTest {
 	public void verify_remote_PC_commit() throws Throwable {
 		System.out.println("In commit from PC step");
 	}
+	@Then("^verify fetch$")
+	public void verify_fetch() throws Throwable {
+		System.out.println("In Then fetch test");
+	}
 }
